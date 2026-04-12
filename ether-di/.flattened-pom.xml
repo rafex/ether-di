@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.rafex.ether.di</groupId>
+  <artifactId>ether-di</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>ether-di</name>
+  <description>Bloques de construcción para inyección de dependencias explícita en Java 21+.
+        Provee Lazy, Closer y Bootstrap — sin reflexión, sin anotaciones, compatible
+        con GraalVM native-image.</description>
+  <url>https://rafex.dev/ether/di</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/license/mit/</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Raúl Eduardo González Argote</name>
+      <email>rafex@rafex.dev</email>
+      <organization>dev.rafex</organization>
+      <organizationUrl>https://rafex.dev</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/rafex/ether-di.git</connection>
+    <developerConnection>scm:git:https://github.com/rafex/ether-di.git</developerConnection>
+    <url>https://github.com/rafex/ether-di</url>
+  </scm>
+</project>

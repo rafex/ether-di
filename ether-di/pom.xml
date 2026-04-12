@@ -69,6 +69,11 @@
 
     <build>
         <finalName>${project.name}</finalName>
-        <!-- flatten-maven-plugin inherited from ether-parent -->
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>flatten-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
     </build>
 </project>
